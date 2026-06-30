@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Palette, Scissors, Image as ImageIcon, Briefcase, Camera } from 'lucide-react';
 
 import foto1 from '../images/foto1.png';
 import foto2 from '../images/foto2.png';
