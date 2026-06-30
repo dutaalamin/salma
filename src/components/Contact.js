@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { Mail, Phone, Instagram, Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { Mail, Linkedin, Instagram, Send, CheckCircle, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Contact = () => {
@@ -79,17 +79,19 @@ const Contact = () => {
                   </div>
                 </a>
 
-                {/* Phone Channel */}
+                {/* LinkedIn Channel */}
                 <a
-                  href="tel:+6287741122118"
+                  href="https://www.linkedin.com/in/salma-halimatus-sadiyah/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-white border border-stone-100 rounded-2xl hover:border-amber-200 hover:shadow-md hover:shadow-amber-50/40 transition-all duration-300 group"
                 >
                   <div className="p-3 bg-amber-50 text-amber-600 rounded-xl group-hover:bg-amber-100 transition-colors">
-                    <Phone className="w-5 h-5" />
+                    <Linkedin className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="text-[10px] font-bold text-stone-400 uppercase tracking-wider">Phone / WhatsApp</h4>
-                    <p className="text-sm font-bold text-stone-850 group-hover:text-amber-700 transition-colors">+62 877-4112-2118</p>
+                    <h4 className="text-[10px] font-bold text-stone-400 uppercase tracking-wider">LinkedIn</h4>
+                    <p className="text-sm font-bold text-stone-850 group-hover:text-amber-700 transition-colors">Salma Halimatus Sadiyah</p>
                   </div>
                 </a>
 
